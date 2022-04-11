@@ -1,0 +1,115 @@
+.navbar {
+    float: right;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: inline;
+    padding: 7px;
+    font-size: 1.2em;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar ul>a>a>a {
+    color: black;
+}
+
+#sign_in {
+    list-style: none;
+    float: right;
+}
+
+#sign_in a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 7px;
+    border: 8px solid #1a73e8;
+}
+
+.google-image {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    width: 15%;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-search {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-search input {
+    border-radius: 10px;
+    width: 450px;
+    height: 2.5vh;
+}
+
+.buttons {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    top: 54%;
+    left: 55%;
+    transform: translate(-90%, -50%);
+}
+
+.buttons button {
+    margin-right: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.footer-right {
+    float: right;
+    padding: 5px;
+}
+
+.footer-right li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.footer-right li>a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-left {
+    float: left;
+    padding: 5px;
+}
+
+.footer-left li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.footer-left li>a {
+    text-decoration: none;
+    color: gray;
+}
